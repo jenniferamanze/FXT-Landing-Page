@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forextainment - Your Financial Ecosystem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Assets/FXT Singular Logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center flex-shrink-0" href="index.html">
+                  <img 
+                    src="Assets/FXT Full Logo.png" 
+                    alt="Forextainment Logo" 
+                    class="img-fluid" 
+                    style="height: 32px; width: auto; max-width: 180px;"
+                  >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>                      
+                        <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>                          
+                        <li class="nav-item"><a class="nav-link" href="#copy-trading">Copy Trading</a></li>                        
+                        <li class="nav-item"><a class="nav-link" href="#calculator">Calculator</a></li>
+                        <li class="nav-item"><a class="btn btn-orange" href="#waitlist">Join the Waitlist</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section id="home" class="hero bg-animated">
+  <div class="container py-5">
+    <div class="row align-items-center justify-content-center">
+      <!-- Left side: Hero text and CTA -->
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <h1 class="fw-bold mb-4">
+          Trade Smarter.<br>
+          <span class="text-orange">Connect Better.</span><br>
+          Grow Together.
+        </h1>
+        <p class="lead mb-5">
+          An ecosystem where traders meet, learn, and earn, all in one place. From interest-based communities to simplified trading tools, we’re changing how you experience the market.
+        </p>
+        <a href="#waitlist" class="btn btn-orange btn-lg px-3 fw-bold d-inline-block" style="max-width:300px;">Join the Waitlist Now</a>
+      </div>
+      <!-- Right side: Dashboard illustration -->
+      <div class="col-lg-6 d-flex justify-content-center">
+        <div class="dashboard-illustration">
+          <div class="dashboard-card">
+            <div class="dashboard-header">
+              <h3>Trading Dashboard</h3>
+              <div class="dashboard-lights">
+                <span class="light red"></span>
+                <span class="light yellow"></span>
+                <span class="light green"></span>
+              </div>
+            </div>
+            <div class="dashboard-chart">
+              <div class="chart-bar" style="height: 40%;"></div>
+              <div class="chart-bar" style="height: 70%;"></div>
+              <div class="chart-bar" style="height: 30%;"></div>
+              <div class="chart-bar" style="height: 80%;"></div>
+              <div class="chart-bar" style="height: 60%;"></div>
+              <div class="chart-bar" style="height: 90%;"></div>
+              <div class="chart-bar" style="height: 45%;"></div>
+              <div class="chart-bar" style="height: 85%;"></div>
+            </div>
+            <div class="dashboard-stats">
+              <div class="stat-card">
+                <p class="stat-label">Portfolio Value</p>
+                <p class="stat-value">$24,563</p>
+                <p class="stat-change positive">+2.4%</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-label">Today's P&amp;L</p>
+                <p class="stat-value">+$347</p>
+                <p class="stat-change positive">+1.4%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Feature Highlights Section -->
+<div class="feature-highlights-wrapper">
+  <div class="container">
+    <div class="row text-center py-5 feature-highlights">
+      <div class="col-6 col-md-3 mb-4 mb-md-0">
+        <div class="feature-icon mb-3 mx-auto">
+          <i class="fa-solid fa-arrow-trend-up"></i>
+        </div>
+        <h3 class="feature-title">Smart Trading</h3>
+        <p class="feature-desc">Advanced algorithms for better decisions</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4 mb-md-0">
+        <div class="feature-icon mb-3 mx-auto">
+          <i class="fa-solid fa-users"></i>
+        </div>
+        <h3 class="feature-title">Community</h3>
+        <p class="feature-desc">Connect with expert traders</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="feature-icon mb-3 mx-auto">
+          <i class="fa-regular fa-copy"></i>
+        </div>
+        <h3 class="feature-title">Copy Trading</h3>
+        <p class="feature-desc">Mirror successful strategies</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="feature-icon mb-3 mx-auto">
+          <i class="fa-solid fa-calculator"></i>
+        </div>
+        <h3 class="feature-title">Calculator</h3>
+        <p class="feature-desc">Built-in risk management tools</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Trading Community -->
+  <section id="community" class="section-light py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <!-- Left side - Content -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-4" style="font-size:2.2rem;">
+          A Trading Community <span class="text-orange">That Gets You</span>
+        </h2>
+        <p class="lead text-muted mb-4">
+          Join a network of traders discussing crypto, stocks, forex, and metals.
+          Your feed adapts to your focus. Stay supported and informed.
+        </p>
+        <div class="row g-4 mt-3">
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-start gap-3">
+              <div class="feature-icon-sm">
+                <i class="fa-regular fa-message"></i>
+              </div>
+              <div>
+                <h4 class="fw-semibold mb-1 text-dark">Real-time Chat</h4>
+                <p class="text-sm text-muted mb-0">Connect instantly with fellow traders</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-start gap-3">
+              <div class="feature-icon-sm">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </div>
+              <div>
+                <h4 class="fw-semibold mb-1 text-dark">Market Insights</h4>
+                <p class="text-sm text-muted mb-0">Share and discover trading strategies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Right side - Community Interface Mockup -->
+      <div class="col-lg-6">
+        <div class="community-mockup bg-white rounded-4 shadow p-4">
+          <!-- Community Header -->
+          <div class="d-flex align-items-center justify-content-between pb-3 border-bottom">
+            <h3 class="fw-semibold mb-0 text-dark">Trading Community</h3>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa-solid fa-users text-secondary"></i>
+              <span class="text-sm text-secondary">2,847 online</span>
+            </div>
+          </div>
+          <!-- Community Posts -->
+          <div class="community-post bg-light p-3 rounded-3 mt-3 mb-2">
+            <div class="d-flex align-items-start gap-3">
+              <div class="avatar bg-orange text-white rounded-circle d-flex align-items-center justify-content-center fw-semibold" style="width:32px;height:32px;">J</div>
+              <div class="flex-grow-1">
+                <div class="d-flex align-items-center gap-2 mb-1">
+                  <span class="fw-semibold text-dark">John_Trader</span>
+                  <span class="text-xs text-secondary">2 min ago</span>
+                </div>
+                <p class="text-sm text-dark mb-1">
+                  Just closed a profitable EUR/USD position. The breakout strategy worked perfectly! 📈
+                </p>
+                <div class="d-flex align-items-center gap-4 mt-2">
+                  <button class="btn btn-link text-decoration-none p-0 d-flex align-items-center gap-1 text-xs text-secondary hover-orange">
+                    <i class="fa-regular fa-heart"></i> 24
+                  </button>
+                  <button class="btn btn-link text-decoration-none p-0 d-flex align-items-center gap-1 text-xs text-secondary hover-orange">
+                    <i class="fa-regular fa-message"></i> 8
+                  </button>              
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="community-post bg-light p-3 rounded-3 mb-2">
+            <div class="d-flex align-items-start gap-3">
+              <div class="avatar bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-semibold" style="width:32px;height:32px;">S</div>
+              <div class="flex-grow-1">
+                <div class="d-flex align-items-center gap-2 mb-1">
+                  <span class="fw-semibold text-dark">Sarah_Crypto</span>
+                  <span class="text-xs text-secondary">5 min ago</span>
+                </div>
+                <p class="text-sm text-dark mb-1">
+                  Bitcoin looking strong above $43k resistance. Thoughts on next move?
+                </p>
+                <div class="d-flex align-items-center gap-4 mt-2">
+                  <button class="btn btn-link text-decoration-none p-0 d-flex align-items-center gap-1 text-xs text-secondary hover-orange">
+                    <i class="fa-regular fa-heart"></i> 12
+                  </button>
+                  <button class="btn btn-link text-decoration-none p-0 d-flex align-items-center gap-1 text-xs text-secondary hover-orange">
+                    <i class="fa-regular fa-message"></i> 15
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Active Topics -->
+          <div class="pt-3 border-top">
+            <p class="text-sm fw-semibold text-dark mb-2">Trending Topics</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="topic-badge bg-orange-light text-orange">#Crypto</span>
+              <span class="topic-badge bg-primary-light text-primary">#Forex</span>
+              <span class="topic-badge bg-success-light text-success">#Stocks</span>
+              <span class="topic-badge bg-purple-light text-purple">#Analysis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+  
+  <!-- Copy Trading -->
+  <section id="copy-trading" class="py-5 bg-white">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <!-- Left side - Trading Interface Mockup -->
+      <div class="col-lg-6">
+        <div class="copy-mockup bg-light rounded-4 shadow-lg p-4">
+          <!-- Interface Header -->
+          <div class="d-flex justify-content-between align-items-center pb-3 border-bottom">
+            <h3 class="fw-semibold mb-0 text-dark">Top Traders</h3>
+            <div class="d-flex gap-2">
+              <span class="light red"></span>
+              <span class="light yellow"></span>
+              <span class="light green"></span>
+            </div>
+          </div>
+          <!-- Trader Cards -->
+          <div class="trader-list mt-3">
+            <div class="trader-card bg-white p-3 rounded-3 border mb-3">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="trader-avatar bg-gradient-orange text-white rounded-circle d-flex align-items-center justify-content-center fw-semibold">
+                    SC
+                  </div>
+                  <div>
+                    <p class="fw-semibold text-dark mb-0">Sarah Chen</p>
+                    <p class="text-sm text-muted mb-0">2.3k followers</p>
+                  </div>
+                </div>
+                <div class="text-end">
+                  <p class="fw-semibold text-success mb-0">+127%</p>
+                  <p class="text-sm text-muted mb-0">Low Risk</p>
+                </div>
+              </div>
+              <div class="mt-3 d-flex gap-2">
+                <button class="btn btn-orange btn-sm d-flex align-items-center gap-1 flex-grow-1">
+                  <i class="fa-regular fa-eye"></i> Watch
+                </button>
+                <button class="btn btn-outline-orange btn-sm d-flex align-items-center gap-1 flex-grow-1">
+                  Copy
+                </button>
+              </div>
+            </div>
+            <div class="trader-card bg-white p-3 rounded-3 border mb-3">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="trader-avatar bg-gradient-orange text-white rounded-circle d-flex align-items-center justify-content-center fw-semibold">
+                    AR
+                  </div>
+                  <div>
+                    <p class="fw-semibold text-dark mb-0">Alex Rodriguez</p>
+                    <p class="text-sm text-muted mb-0">1.8k followers</p>
+                  </div>
+                </div>
+                <div class="text-end">
+                  <p class="fw-semibold text-success mb-0">+89%</p>
+                  <p class="text-sm text-muted mb-0">Medium Risk</p>
+                </div>
+              </div>
+              <div class="mt-3 d-flex gap-2">
+                <button class="btn btn-orange btn-sm d-flex align-items-center gap-1 flex-grow-1">
+                  <i class="fa-regular fa-eye"></i> Watch
+                </button>
+                <button class="btn btn-outline-orange btn-sm d-flex align-items-center gap-1 flex-grow-1">
+                  Copy
+                </button>
+              </div>
+            </div>
+            <div class="trader-card bg-white p-3 rounded-3 border">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="trader-avatar bg-gradient-orange text-white rounded-circle d-flex align-items-center justify-content-center fw-semibold">
+                    DK
+                  </div>
+                  <div>
+                    <p class="fw-semibold text-dark mb-0">David Kim</p>
+                    <p class="text-sm text-muted mb-0">3.1k followers</p>
+                  </div>
+                </div>
+                <div class="text-end">
+                  <p class="fw-semibold text-success mb-0">+156%</p>
+                  <p class="text-sm text-muted mb-0">Low Risk</p>
+                </div>
+              </div>
+              <div class="mt-3 d-flex gap-2">
+                <button class="btn btn-orange btn-sm d-flex align-items-center gap-1 flex-grow-1">
+                  <i class="fa-regular fa-eye"></i> Watch
+                </button>
+                <button class="btn btn-outline-orange btn-sm d-flex align-items-center gap-1 flex-grow-1">
+                  Copy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Right side - Content -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-4" style="font-size:2.2rem; line-height:1.2;">
+          Learn by <span class="text-orange">Watching</span>, Earn by <span class="text-orange">Copying</span>
+        </h2>
+        <p class="lead text-muted mb-4">
+          Follow experienced traders and copy their strategies in real time. Build confidence while learning how the pros move.
+        </p>
+        <div class="mb-4">
+          <div class="d-flex align-items-start gap-3 mb-3">
+            <div class="feature-icon-lg">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+            </div>
+            <div>
+              <h4 class="fw-semibold text-dark mb-1">Real-time Strategy Copying</h4>
+              <p class="text-sm text-muted mb-0">Mirror successful trades automatically with customizable risk settings.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-3">
+            <div class="feature-icon-lg">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div>
+              <h4 class="fw-semibold text-dark mb-1">Verified Expert Traders</h4>
+              <p class="text-sm text-muted mb-0">Follow only authenticated professionals with proven track records.</p>
+            </div>
+          </div>
+        </div>
+        
+        <a href="#waitlist" class="btn btn-orange btn-lg px-3 fw-bold d-inline-block" style="max-width:220px;">Start Copy Trading </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Calculator -->
+  <section id="calculator" class="py-5 bg-light calculator-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <!-- Left side - Content -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-4" style="font-size:2rem;">
+          Smart Trading Decisions, <span class="text-orange">Made Easy</span>
+        </h2>
+        <p class="lead text-muted mb-4">
+          Use our calculator to determine pip value, position size, and potential profit/loss. No guesswork.
+        </p>
+        <div class="mb-4">
+          <div class="d-flex align-items-start gap-3 mb-3">
+            <div class="feature-icon-lg">
+              <i class="fa-solid fa-calculator"></i>
+            </div>
+            <div>
+              <h3 class="fw-semibold text-dark mb-1">Position Size Calculator</h3>
+              <p class="text-sm text-muted mb-0">Determine the optimal trade size based on your risk tolerance.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-3 mb-3">
+            <div class="feature-icon-lg">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+              <h3 class="fw-semibold text-dark mb-1">Profit/Loss Estimation</h3>
+              <p class="text-sm text-muted mb-0">Calculate potential outcomes before placing your trades.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-3">
+            <div class="feature-icon-lg">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div>
+              <h3 class="fw-semibold text-dark mb-1">Risk Management</h3>
+              <p class="text-sm text-muted mb-0">Built-in risk assessment tools to protect your capital.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#waitlist" class="btn btn-orange btn-lg px-3 fw-bold d-inline-block" style="max-width:300px;">Try Calculator</a>
+      </div>
+      <!-- Right side - Calculator Interface Mockup -->
+      <div class="col-lg-6">
+        <div class="calculator-mockup bg-white shadow-lg rounded-4 p-4">
+          <!-- Calculator Header -->
+          <div class="d-flex justify-content-between align-items-center pb-3 border-bottom">
+            <h3 class="fw-semibold text-dark mb-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-calculator text-orange"></i>
+              Position Calculator
+            </h3>
+            <div class="d-flex gap-2">
+              <span class="light red"></span>
+              <span class="light yellow"></span>
+              <span class="light green"></span>
+            </div>
+          </div>
+          <!-- Input Fields -->
+          <div class="mt-4">
+            <div class="row g-3">
+              <div class="col-6">
+                <label class="form-label text-sm fw-semibold text-muted mb-1">Account Balance</label>
+                <div class="bg-light border rounded-3 px-3 py-2">
+                  <span class="text-dark fw-semibold">$10,000</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <label class="form-label text-sm fw-semibold text-muted mb-1">Risk %</label>
+                <div class="bg-light border rounded-3 px-3 py-2">
+                  <span class="text-dark fw-semibold">2%</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <label class="form-label text-sm fw-semibold text-muted mb-1">Entry Price</label>
+                <div class="bg-light border rounded-3 px-3 py-2">
+                  <span class="text-dark fw-semibold">1.0850</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <label class="form-label text-sm fw-semibold text-muted mb-1">Stop Loss</label>
+                <div class="bg-light border rounded-3 px-3 py-2">
+                  <span class="text-dark fw-semibold">1.0800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Results -->
+          <div class="bg-gradient-orange-light rounded-3 p-4 mt-4">
+            <div class="row text-center">
+              <div class="col-6">
+                <p class="text-sm text-muted mb-1">Position Size</p>
+                <p class="fs-2 fw-bold text-orange mb-0">4,000</p>
+                <p class="text-xs text-secondary">units</p>
+              </div>
+              <div class="col-6">
+                <p class="text-sm text-muted mb-1">Risk Amount</p>
+                <p class="fs-2 fw-bold text-danger mb-0">$200</p>
+                <p class="text-xs text-secondary">maximum loss</p>
+              </div>
+            </div>
+          </div>
+          <!-- Action Button -->
+          <button class="btn btn-orange btn-lg w-100 mt-4">Calculate Position</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Why Forextainment -->
+  <section id="why-forextainment" class="why-section py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold mb-4" style="font-size:2rem;">
+        Why Choose <span class="text-orange">Forextainment</span>?
+      </h2>
+      <p class="lead text-muted mx-auto" style="max-width:600px;">
+        Experience the perfect blend of technology, community, and expertise in one powerful trading platform.
+      </p>
+    </div>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="why-card bg-white p-4 rounded-4 shadow-sm h-100 text-center">
+          <div class="why-icon mb-4 mx-auto">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <h3 class="fw-semibold text-dark mb-3" style="font-size:1.25rem;">Advanced Technology</h3>
+          <p class="text-muted">Cutting-edge tools and algorithms for smarter trading decisions.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="why-card bg-white p-4 rounded-4 shadow-sm h-100 text-center">
+          <div class="why-icon mb-4 mx-auto">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <h3 class="fw-semibold text-dark mb-3" style="font-size:1.25rem;">Vibrant Community</h3>
+          <p class="text-muted">Connect, share, and learn with traders from around the world.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="why-card bg-white p-4 rounded-4 shadow-sm h-100 text-center">
+          <div class="why-icon mb-4 mx-auto">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3 class="fw-semibold text-dark mb-3" style="font-size:1.25rem;">Expert Guidance</h3>
+          <p class="text-muted">Access insights and strategies from proven professionals.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="why-card bg-white p-4 rounded-4 shadow-sm h-100 text-center">
+          <div class="why-icon mb-4 mx-auto">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="fw-semibold text-dark mb-3" style="font-size:1.25rem;">Secure & Reliable</h3>
+          <p class="text-muted">Your data and trades are protected with industry-leading security.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Waitlist Section -->
+  <section id="waitlist" class="py-5 waitlist-gradient">
+  <div class="container text-center">
+    <h1 class="fw-bold mb-3" style="font-size:2.5rem;">Be First to Experience the New Era of Trading</h1>
+    <p class="mb-4" style="font-size:1.3rem; color:#555;">Join our waitlist for exclusive access and rewards.</p>
+    <!-- Progress Indicator -->
+    <div class="d-flex justify-content-center align-items-center mb-4 gap-4 flex-wrap" id="waitlist-steps">
+      <!-- Step 1 -->
+      <div class="d-flex align-items-center waitlist-step" data-step="1">
+        <span class="waitlist-circle" id="step-circle-1">
+          <i class="fa-solid fa-envelope fa-lg"></i>
+        </span>
+        <span class="ms-2 fw-semibold waitlist-label" id="step-label-1">Email Entry</span>
+      </div>
+      <span class="waitlist-connector"></span>
+      <!-- Step 2 -->
+      <div class="d-flex align-items-center waitlist-step" data-step="2">
+        <span class="waitlist-circle" id="step-circle-2">
+          <i class="fa-solid fa-paper-plane fa-lg"></i>
+        </span>
+        <span class="ms-2 fw-semibold waitlist-label" id="step-label-2">Confirmation</span>
+      </div>
+      <span class="waitlist-connector"></span>
+      <!-- Step 3 -->
+      <div class="d-flex align-items-center waitlist-step" data-step="3">
+        <span class="waitlist-circle" id="step-circle-3">
+          <i class="fa-solid fa-circle-check fa-lg"></i>
+        </span>
+        <span class="ms-2 fw-semibold waitlist-label" id="step-label-3">Success</span>
+      </div>
+    </div>
+    <!-- Step Content -->
+    <div class="waitlist-content mx-auto" style="max-width:400px;">
+      <!-- Step 1: Form -->
+      <form id="waitlist-form" class="waitlist-form">
+        <input type="email" id="waitlist-email" class="form-control form-control-lg mb-3" placeholder="Enter your email address" required>
+        <button type="submit" id="waitlist-submit" class="btn btn-orange btn-lg w-100 fw-bold">Join the Waitlist Now</button>
+      </form>
+      <!-- Step 2: Loading -->
+      <div id="waitlist-loading" class="waitlist-step-content text-center" style="display:none;">
+        <div class="waitlist-spinner mx-auto mb-4"></div>
+        <h3 class="text-xl fw-semibold text-dark">Confirming your registration...</h3>
+        <p class="text-muted mt-2">Please wait while we process your request.</p>
+      </div>
+      <!-- Step 3: Success -->
+      <div id="waitlist-success" class="waitlist-step-content text-center" style="display:none;">
+        <div class="waitlist-success-circle mx-auto mb-4">
+          <i class="fa-solid fa-circle-check fa-2x text-success"></i>
+        </div>
+        <h3 class="text-xl fw-semibold text-dark mb-2">Welcome to the waitlist!</h3>
+        <p class="text-muted mb-4">
+          You'll be among the first to know when Forextainment launches.<br>
+          Check your email for confirmation and exclusive updates.
+        </p>
+        <button type="button" id="waitlist-reset" class="btn btn-outline-orange w-100">Add Another Email</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer-section bg-dark text-white py-5">
+  <div class="container">
+    <div class="row align-items-start align-items-md-center justify-content-between g-4">
+      <!-- Left side - Logo and small print -->
+      <div class="col-12 col-md-auto mb-4 mb-md-0">
+        <div class="bg-white rounded-3 p-2 d-inline-block mb-3">
+          <img
+            src="Assets/FXT Full Logo.png"
+            alt="Forextainment"
+            style="height: 32px; width: auto;"
+          />
+        </div>
+        <div class="text-secondary text-opacity-200 small">
+          <p class="mb-1">&copy; Forextainment 2025. All rights reserved.</p>
+          <p class="mb-0">Trading involves risks. Please trade responsibly.</p>
+        </div>
+      </div>
+      <!-- Right side - Links and Social -->
+      <div class="col-12 col-md-auto d-flex flex-column flex-md-row gap-4">
+        <!-- Links -->
+        <div class="d-flex flex-column flex-sm-row gap-3 me-md-4">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Use</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <!-- Social Media Icons -->
+        <div class="d-flex gap-3">
+          <a href="#" class="footer-social text-decoration-none"  aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="footer-social text-decoration-none" aria-label="Twitter">
+            <i class="fab fa-x"></i>
+          </a>
+          <a href="#" class="footer-social text-decoration-none" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="footer-social text-decoration-none" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="Scripts/script.js"></script>
+</body>
+</html>
